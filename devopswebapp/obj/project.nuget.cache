@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9QJUmFnJfhtfcTjHsne1NM79wP6ZGaZjjSXfHx07il3fox8/BzaoV1IiaVGL13UOZFqp9rglUKtjV18b2IM1Fg==",
+  "dgSpecHash": "XV74xZRc9zsW+4drshK37Yyh6u8LICsyJe61XjtMTt3wAjN+eFe6Jr6sMXHvKNjQjgcdKOwxuZNSkZGvu5PGGQ==",
   "success": true,
-  "projectFilePath": "F:\\DOProjects\\devops-webapp-solution\\devopswebapp\\devopswebapp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\projects\\devops-webapp-solution\\devops-webapp-solution\\devopswebapp\\devopswebapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }
