@@ -1,11 +1,17 @@
-variables:
+variables: 
     # Container registry service connection established during pipeline creation
     dockerRegistryServiceConnection: devops-acr-connection
     imageRepository: devops-course-repository
-    containerRegistry: devopscourseregistry
-    dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-    tag: 'latest'
+    containerRegistry: matheusdevopscourseregistry
+    dockerfilePath: '$(Build.sourcesDirectory/Dockerfile)'
+    tag: 'latest' #'$(Build.BuildId)'
 
-    # Agent VM image name
+    #Agent Vm image name
     vmImageName: 'ubuntu-latest'
 
+steps:
+  - task: AzureWebAppContainer@1 #Description that the task will execute
+    inputs:
+      azureSubscription: 'devops-appservice-resource-group' 
+      appName: 'devops-course-webapp-test'
+      containers: $(containerRegistry)/$(imageRepository):$(tag)
