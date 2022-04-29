@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\projects\\devops-webapp-solution\\devops-webapp-solution\\devopswebapp\\devopswebapp.csproj": {}
+    "/home/matheus/asp-project/ASP.net-sample-app/devopswebapp/devopswebapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\projects\\devops-webapp-solution\\devops-webapp-solution\\devopswebapp\\devopswebapp.csproj": {
+    "/home/matheus/asp-project/ASP.net-sample-app/devopswebapp/devopswebapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\projects\\devops-webapp-solution\\devops-webapp-solution\\devopswebapp\\devopswebapp.csproj",
+        "projectUniqueName": "/home/matheus/asp-project/ASP.net-sample-app/devopswebapp/devopswebapp.csproj",
         "projectName": "devopswebapp",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\projects\\devops-webapp-solution\\devops-webapp-solution\\devopswebapp\\devopswebapp.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\projects\\devops-webapp-solution\\devops-webapp-solution\\devopswebapp\\obj\\",
+        "projectPath": "/home/matheus/asp-project/ASP.net-sample-app/devopswebapp/devopswebapp.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/asp-project/ASP.net-sample-app/devopswebapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,7 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -47,12 +45,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.21, 3.1.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -61,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/163/sdk/3.1.418/RuntimeIdentifierGraph.json"
         }
       }
     }
